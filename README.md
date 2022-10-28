@@ -30,7 +30,7 @@ To make predictions:
 labels_list =  ['NoDamage' , 'Crack', 'Spalling', 'Efflorescence', 'BarsExposed', 'Rust']
 make_predictions(model, img_path, labels= labels_list)
 ```
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](https://github.com/mpaques269546/codebrim_challenge/codebrim.png=true "Optional Title")
 
 ```python
 NoDamage       ........................................  0.07% 
