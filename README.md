@@ -11,8 +11,8 @@ CODEBRIM [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Mundt_Me
 
 # Model
 Our model is a Vision Transformer with 12 transformer encoder layers, 6 heads, an embedding dimension of 384 and a patchsize of 8. 
-A class token is concatenated to the input patch sequence. The class tokens of the 4 last layers are used as features for the classification task.
-The classifier is a simple linear layer. A sigmoid function convert the logits into probabilities and a 0,5 threshold convert the probabilities into 
+A class token is concatenated to the input patch sequence. The concatenated class tokens of the 4 last layers are used as features for the classification task.
+The classifier is a simple linear layer. A sigmoid activation function convert the logits into probabilities and a 0,5 threshold convert the probabilities into 
 prediction.
 
 # Training
