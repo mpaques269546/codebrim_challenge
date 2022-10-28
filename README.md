@@ -17,7 +17,7 @@ prediction.
 
 # Training
 To deal with class imbalance, we apply multiple class-balancing tricks regarding the loss, the weight regularization constraints and the parameters freezing. 
-We don't use any over-sampling by data augmentation.
+We didn't use class-balancing by over-sampling data.
 
 # Usage
 The jupyter notebook run.ipynb will run predictions and display images for any images in /data/.
