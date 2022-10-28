@@ -1,10 +1,10 @@
 # codebrim_challenge
+This repository was made to attend to the CODEBRIM challenge hosted on "https://dacl.ai/". We highly encourage the readers to visit "https://github.com/phiyodr/building-inspection-toolkit" for more information on automatic infrastructure inspection. 
 
 # Dataset
 Codebrim is a multi-classes multi-labels dataset of common infrastructure defects. There are 6 classes ['Background', 'Crack', 'Spallation', 
 'Efflorescence' , 'ExposedBars', 'CorrosionStain'] and 7729 images split in train (6481 imgs) / test (632 imgs) / val (616 imgs). 
-A balanced version of the dataset is available with 9209 images in the train dataset. Please visit "https://github.com/phiyodr/building-inspection-toolkit"
-to download the data.
+A balanced version of the dataset is available with 9209 images in the train dataset. 
 Name      | Type        | Unique images | train/val/test split
 ----------|-------------|---------------|-------------
 CODEBRIM [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Mundt_Meta-Learning_Convolutional_Neural_Architectures_for_Multi-Target_Concrete_Defect_Classification_With_CVPR_2019_paper.html) [[Data]](https://zenodo.org/record/2620293#.YO8rj3UzZH4) | 6-class multi-target Clf  | 7,730 | original-version
