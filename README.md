@@ -20,6 +20,8 @@ To deal with class imbalance, we apply multiple class-balancing tricks regarding
 We don't use any over-sampling by data augmentation.
 
 # Usage
+The jupyter notebook run.ipynb will run predictions and display images for any images in /data/.
+
 To load the model
 ```python
 model = build_model(pretrained_weights='./vit/weights/models.pth', img_size=224, num_cls=6)
