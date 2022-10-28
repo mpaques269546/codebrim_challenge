@@ -30,5 +30,15 @@ To make predictions:
 labels_list =  ['NoDamage' , 'Crack', 'Spalling', 'Efflorescence', 'BarsExposed', 'Rust']
 make_predictions(model, img_path, labels= labels_list)
 ```
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+```
+NoDamage       ........................................  0.25% 
+Crack          +++.....................................  9.22% 
+Spalling       ++++.................................... 11.37% 
+Efflorescence  +++++++++++++++++++++++++++++++++++++++. 97.78% 
+BarsExposed    ........................................  2.07% 
+Rust           +.......................................  3.65% 
+inference time = 339.63 ms
+```
   
 
