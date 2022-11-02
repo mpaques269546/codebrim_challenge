@@ -1,5 +1,5 @@
 # codebrim_challenge
-This repository was made to attend to the CODEBRIM challenge hosted on "https://dacl.ai/". We highly encourage the readers to visit the following repository for more information on automatic infrastructure inspection. Trained models and infrastructure datasets are available.
+This repository was made to attend to the CODEBRIM challenge hosted on "https://dacl.ai/". We highly encourage the readers to visit the following repository for more information on automatic infrastructure inspection. Trained models and infrastructure datasets are available on this reference.
 Rösch, P. J.&  Flotzinger, J. (2022). Building Inspection Toolkit (version: 0.1.4). https://github.com/phiyodr/building-inspection-toolkit/
 
 # Dataset
