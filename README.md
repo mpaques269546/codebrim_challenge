@@ -7,8 +7,7 @@ Codebrim is a multi-classes multi-labels dataset of common infrastructure defect
 
 Name      | Type        | Classes | train/val/test split
 ----------|-------------|---------------|-------------
-CODEBRIM [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Mundt_Meta-Learning_Convolutional_Neural_Architectures_for_Multi-Target_Concrete_Defect_Classification_With_CVPR_2019_paper.html) [[Data]](https://zenodo.org/record/2620293#.YO8rj3UzZH4) | 6-class multi-target Clf  | 'Background', 'Crack', 'Spallation', 
-'Efflorescence' , 'ExposedBars', 'CorrosionStain' |7,729 or 9,209 / 632 / 616 |
+CODEBRIM [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Mundt_Meta-Learning_Convolutional_Neural_Architectures_for_Multi-Target_Concrete_Defect_Classification_With_CVPR_2019_paper.html) [[Data]](https://zenodo.org/record/2620293#.YO8rj3UzZH4) | 6-class multi-target Clf  | 'Background', 'Crack', 'Spallation', 'Efflorescence' , 'ExposedBars', 'CorrosionStain' |7,729 or 9,209 / 632 / 616 |
 
 
 
