@@ -50,7 +50,7 @@ make_predictions(model, img_path, labels= labels_list)
 ```
 ![](https://github.com/mpaques269546/codebrim_challenge/blob/main/datasets/data/image_0000761_crop_0000006.png {width=40px height=400px})
 
-<img src="[https://i.imgur.com/ZWnhY9T.png](https://github.com/mpaques269546/codebrim_challenge/blob/main/datasets/data/image_0000761_crop_0000006.png" >
+<img src="https://github.com/mpaques269546/codebrim_challenge/blob/main/datasets/data/image_0000761_crop_0000006.png" width="150" height="280">
 
 ```python
 NoDamage       ........................................  0.00% 
