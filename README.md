@@ -48,9 +48,7 @@ To make predictions:
 labels_list =  ['NoDamage' , 'Crack', 'Spalling', 'Efflorescence', 'BarsExposed', 'Rust']
 make_predictions(model, img_path, labels= labels_list)
 ```
-![](https://github.com/mpaques269546/codebrim_challenge/blob/main/datasets/data/image_0000761_crop_0000006.png {width=40px height=400px})
-
-<img src="https://github.com/mpaques269546/codebrim_challenge/blob/main/datasets/data/image_0000761_crop_0000006.png" width="150" height="280">
+<img src="https://github.com/mpaques269546/codebrim_challenge/blob/main/datasets/data/image_0000761_crop_0000006.png" width="300" height="300">
 
 ```python
 NoDamage       ........................................  0.00% 
@@ -66,8 +64,8 @@ inference time = 251.10 ms
 This results were obtained during the project SOFIA (artificial intelligence-based monitoring of engineering structures) conducted with the assistance of the French State's Recovery Plan (Plan de Relance) entrusted to the Cerema.
 
 
-![](https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/france_relance.jpeg =50x50)
-![](https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/mariane.jpeg =50x50)
-![](https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/cerema.png =50x50)
+<img src= "https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/france_relance.jpeg" width="50" height="50">
+<img src= "https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/mariane.jpeg" width="50" height="50">
+<img src= "https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/cerema.png" width="50" height="50">
 
 
