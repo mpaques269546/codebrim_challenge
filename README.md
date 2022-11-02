@@ -13,6 +13,20 @@ CODEBRIM [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Mundt_Me
 Our model is a Vision Transformer with 12 transformer encoder layers, 6 heads, an embedding dimension of 384 and a patchsize of 8. 
 A class token is concatenated to the input patch sequence. The concatenated class tokens of the 4 last layers are used as features for the classification task.
 The classifier is a simple linear layer. A sigmoid activation function converts the logits into probabilities and a 0.5 threshold converts the probabilities into predictions.
+Our model was able to perform the following performance on the CODEBRIM test set:
+```python
+======Results======
+Number of samples in test dataset:    632
+Completely correct predicted samples: 490
+ExactMatchRatio:                      77.53 %
+F1-Score:                             0.90
+Recall-NoDamage: 0.95
+Recall-Crack: 0.92
+Recall-Spalling: 0.91
+Recall-Efflorescence: 0.85
+Recall-BarsExposed: 0.91
+Recall-Rust: 0.85
+```
 
 # Training
 To deal with class imbalance, we apply multiple class-balancing tricks regarding the loss, the weight regularization constraints and the parameters freezing. 
