@@ -68,4 +68,4 @@ This results were obtained during the project SOFIA (artificial intelligence-bas
 <img src= "https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/mariane.jpeg" height="50">
 <img src= "https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/cerema.png" height="50">
 
-
+<img src= "https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/france_relance.jpeg" src= "https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/cerema.png" height="50">
