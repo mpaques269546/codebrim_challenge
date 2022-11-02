@@ -63,7 +63,7 @@ inference time = 251.10 ms
 # Acknowledgement
 This results were obtained during the project SOFIA (artificial intelligence-based monitoring of engineering structures) conducted with the assistance of the French State's Recovery Plan (Plan de Relance) entrusted to the Cerema. 
 ![My Image](https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/france_relance.jpeg)
-![My Image](https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/data/mariane.jpeg)
-![My Image](https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/cerema.jpeg)
+![My Image](https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/mariane.jpeg)
+![My Image](https://github.com/mpaques269546/codebrim_challenge/blob/main/pics/cerema.png)
 
 
