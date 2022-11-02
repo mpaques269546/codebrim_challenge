@@ -12,19 +12,18 @@ CODEBRIM [[Paper]](https://openaccess.thecvf.com/content_CVPR_2019/html/Mundt_Me
 # Model
 Our model is a Vision Transformer with 12 transformer encoder layers, 6 heads, an embedding dimension of 384 and a patchsize of 8. 
 A class token is concatenated to the input patch sequence. The concatenated class tokens of the 4 last layers are used as features for the classification task.
-The classifier is a simple linear layer. A sigmoid activation function convert the logits into probabilities and a 0,5 threshold convert the probabilities into 
-prediction.
+The classifier is a simple linear layer. A sigmoid activation function converts the logits into probabilities and a 0.5 threshold converts the probabilities into predictions.
 
 # Training
 To deal with class imbalance, we apply multiple class-balancing tricks regarding the loss, the weight regularization constraints and the parameters freezing. 
-We didn't use class-balancing by over-sampling data.
+We didn't use over-sampling by data augmentation to balance the training set.
 
 # Usage
 The jupyter notebook run.ipynb will run predictions and display images for any images in /data/.
 
 To load the model
 ```python
-model = build_model(pretrained_weights='./vit/weights/models.pth', img_size=224, num_cls=6)
+model = build_model(pretrained_weights='./vit/weights/quantized_models.pth', img_size=224, num_cls=6, quantized=True)
 ```
 
 To make predictions:
@@ -32,16 +31,16 @@ To make predictions:
 labels_list =  ['NoDamage' , 'Crack', 'Spalling', 'Efflorescence', 'BarsExposed', 'Rust']
 make_predictions(model, img_path, labels= labels_list)
 ```
-![My Image](codebrim.png)
+![My Image](codebrim_ex_img.png)
 
 ```python
-NoDamage       ........................................  0.07% 
-Crack          +++.....................................  9.97% 
-Spalling       +++++++++++++++++++++++++++++++++++++++. 99.23% 
-Efflorescence  ........................................  0.82% 
-BarsExposed    +++++++++++++++++++++++++++++++++++++++. 98.82% 
-Rust           ++++++++++++++++++++++.................. 55.86% 
-inference time = 253.40 ms
+NoDamage       ........................................  0.00% 
+Crack          ++......................................  5.16% 
+Spalling       +++++++++++++++++++++++++++++++++++++++.100.00% 
+Efflorescence  ........................................  0.02% 
+BarsExposed    +++++++++++++++++++++++++++++++++++++++.100.00% 
+Rust           +++++++++++++++++++++++++++++++++++++++. 98.58% 
+inference time = 251.10 ms
 ```
   
 
