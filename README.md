@@ -31,8 +31,8 @@ Recall-Rust: 0.85
 ```
 
 # Training
-To deal with class imbalance, we apply multiple class-balancing tricks regarding the loss, the weight regularization constraints and the parameters freezing. 
-We didn't use over-sampling by data augmentation to balance the training set.
+To deal with class imbalance, we applied multiple class-balancing tricks regarding the loss, the weight regularization constraints and the parameters freezing. 
+We used the original CODEBRIM dataset (no over-sampling).
 
 # Usage
 The jupyter notebook run.ipynb will run predictions and display images for any images in /data/.
