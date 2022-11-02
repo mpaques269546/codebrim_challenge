@@ -1,6 +1,19 @@
 # codebrim_challenge
 This repository was made to attend to the CODEBRIM challenge hosted on "https://dacl.ai/". We highly encourage the readers to visit "https://github.com/phiyodr/building-inspection-toolkit" for more information on automatic infrastructure inspection. 
 
+
+authors:
+- family-names: "Rösch"
+  given-names: "Philipp J."
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Flotzinger"
+  given-names: "Johannes"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Building Inspection Toolkit"
+version: 0.1.4
+date-released: 2022-02-04
+url: "https://github.com/phiyodr/building-inspection-toolkit/"
+
 # Dataset
 Codebrim is a multi-classes multi-labels dataset of common infrastructure defects. A balanced version of the dataset is available with additional augmented images in the train dataset. 
 
